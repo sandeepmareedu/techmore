@@ -83,7 +83,7 @@ function App() {
   return (
       <div className='bgi'>
       <div className="glass-con">
-          <img src={image} className="logo"/>
+          <img alt="techmore" src={image} className="logo"/>
           <h1 className="logoName">Techmore 03</h1>
           <h3 className="logoDes">Tech & Info</h3>       
         <ul className="listItemCon">
