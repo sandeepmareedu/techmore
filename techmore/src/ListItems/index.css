@@ -6,7 +6,7 @@
     min-height: 70px;
     border-radius: 10px;
     text-align: center;
-    transition: 0.1s; /* Smooth and curved timing function */
+    transition: transform .15s cubic-bezier(.17,.67,.29,2.71) 0s; /* Smooth and curved timing function */
 }
 
 .listItemImg{
@@ -35,7 +35,6 @@
 
 .listItem:hover {
     transform: scale(1.03);
-    z-index: 2;
 }
 
 /* Mobile styles */
