@@ -1,0 +1,106 @@
+
+html, body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  overflow: hidden; /* Prevent scroll on the main page */
+}
+
+.bgi {
+  height: 100%;
+  background-image: url("./IMG_4794.JPG");
+  background-size: cover;
+  width: 100%;
+  padding: 0;
+  margin: 0;
+  background-position: center;
+}
+
+.glass-con{
+  position: relative;
+  background-color: rgba(0, 0, 0, 0.559); ;
+  backdrop-filter: blur(30px);
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  padding-bottom: 20px;
+  flex-direction: column;
+  align-items: center;
+  color: white;
+  box-sizing: border-box;
+  overflow-y: scroll;
+}
+
+.logoCon{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 200px;
+  margin: 20px;
+  width: 100%;
+}
+
+.logo{
+  height: 100px;
+  width: 100px;
+  border-radius: 50px;
+  margin-top: 20px;
+}
+
+.logoName{
+  font-size: 23px;
+  margin-bottom: 5px;
+}
+
+.logoDes{
+  color: rgb(173, 168, 168);
+  font-size: 15px;
+  margin: 0%;
+  font-weight: 700;
+}
+
+.listItemCon{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 15px;
+  margin: 0%;
+  width: 100%;
+  padding: 20px;
+  padding-bottom: 60px;
+  box-sizing: border-box;
+}
+
+@media (max-width: 767px) {
+  .bgi {
+    background-size: cover; /* Ensure background image covers the screen */
+  }
+
+  .glass-con {
+    padding-bottom: 10px; /* Reduce bottom padding for smaller screens */
+  }
+
+  .logoCon {
+    height: 150px; /* Reduce height for logo container */
+    margin: 10px; /* Reduce margin */
+  }
+
+  .logo {
+    height: 80px; /* Reduce logo size */
+    width: 80px;
+  }
+
+  .logoName {
+    font-size: 20px; /* Reduce font size */
+  }
+
+  .logoDes {
+    font-size: 13px; /* Reduce font size */
+  }
+
+  .listItemCon {
+    padding: 10px; /* Reduce padding */
+    padding-bottom: 30px; /* Reduce bottom padding */
+  }
+}
